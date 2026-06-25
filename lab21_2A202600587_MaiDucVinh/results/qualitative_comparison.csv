@@ -1,0 +1,25 @@
+prompt,base,finetuned
+Giai thich khai niem machine learning cho nguoi moi bat dau.,"Khái niệm cơ bản của Machine Learning là việc xây dựng các mô hình máy học dựa trên dữ liệu mà không phải là bằng cách viết thủ công các quy tắc. Khi một mô hình máy học được đào tạo, nó có thể học được các quy tắc từ dữ liệu, sau đó có thể dự đoán kết quả mới dựa trên dữ liệu mà nó đã học. Khái niệ","Machine learning là một khái niệm liên quan đến việc sử dụng các thuật toán và mô hình để đào tạo máy tính tự động học từ dữ liệu. Khái niệm này bắt nguồn từ các lĩnh vực như máy học, khoa học dữ liệu và trí tuệ nhân tạo. Tuy nhiên, để hiểu khái niệm này cho người mới bắt đầu, có thể bắt đầu bằng cá"
+Viet doan code Python tinh so Fibonacci thu n.,"Làm việc với Python, chúng ta có thể sử dụng hàm đệ quy để tính toán số Fibonacci theo số thứ n. Dưới đây là một ví dụ về hàm đệ quy tính số Fibonacci. ```python
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-","Trong Python, có thể viết một chương trình để tính toán số Fibonacci thứ n như sau:
+
+```python
+def fibonacci(n):
+    if n <= 0:
+        print(""Nghịp nhập một số dương để tính số Fibonacci đó."")
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        a, b = 0, 1
+        "
+Liet ke 5 nguyen tac thiet ke UI/UX.,"1. **Usability**: Nghe thich, dễ dùng, dễ sử dụng, dễ học, dễ nhớ. 2. **Concise**: Hiển thị thông tin cần thiết, không có thông tin thừa. 3. **Consistent**: Chống dị dạng, không có sự khác biệt lớn giữa các tính năng. 4. **Clear**: Ngôn ngữ, hình ảnh, bố cục, màu sắc, bố cục, kích thước, kích thước,",1. Thỏa mãn nhu cầu của người dùng: Các thiết kế UI/UX phải đảm bảo rằng chúng mang lại trải nghiệm người dùng thuận tiện và đáp ứng nhu cầu của người dùng. 2. Phân tích nhu cầu của người dùng: Thiết kế UI/UX phải dựa trên nghiên cứu nhu cầu của người dùng và phân tích thị trường. Điều này giúp đảm 
+Tom tat su khac biet giua LoRA va QLoRA.,LoRA (Low-Rank Approximation) và QLoRA (Quantized LoRA) là hai phương pháp được sử dụng để cải thiện hiệu suất và độ chính xác của mô hình NLP (Nâng cao ngôn ngữ tự nhiên) bằng cách thay đổi ít các trọng số mà không làm thay đổi quá nhiều trọng số. Trong khi LoRA thay đổi một số trọng số trong một m,"LoRA (Low-Rank Approximation) và QLoRA (Quantized LoRA) là hai phương pháp cải thiện hiệu năng của mạng NLU (Neural Language Unit) bằng cách giảm độ phức tạp của nó. Tuy nhiên, có một vài điểm khác biệt giữa hai phương pháp này. LoRA là phương pháp được phát triển bởi OpenAI và dựa trên việc thêm mộ"
+"Phan biet prompt engineering, RAG, va fine-tuning.","Prompt engineering, RAG và fine-tuning là ba kỹ thuật khác nhau để cải thiện hiệu quả của mô hình ngôn ngữ. 1. Prompt engineering: Prompt engineering là kỹ thuật để cải thiện hiệu suất của mô hình bằng cách tạo ra các câu hỏi hoặc các câu lệnh để mô hình hiểu và trả lời chính xác hơn. Nó thường được","Prompt engineering, RAG và fine-tuning là ba phương pháp khác nhau được sử dụng trong NLP (Nền tảng học máy) và AI (Chương trình nhân tạo). Trong NLP và AI, các mô hình được huấn luyện dựa trên các prompt (một câu lệnh hoặc câu chuyện được cung cấp cho AI để trả lời hoặc thực hiện một nhiệm vụ) để p"
